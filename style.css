@@ -199,11 +199,11 @@ button:hover,button:focus,button:active {
     content: '';
     position: absolute;
     display: flex;
-    width: 75%;
-    height: 65%;
+    width: 50%;
+    height: 50%;
     background-color: #e3ce3a;
-    right: 30%;
-    bottom: 50%;
+    right: 20%;
+    bottom: 25%;
     border-radius: 50%;
 }
 .container .blur-img:after {
@@ -231,7 +231,7 @@ button:hover,button:focus,button:active {
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        height: auto;
+        min-height: auto;
     }
     .header-container ul {
         flex-direction: row;
