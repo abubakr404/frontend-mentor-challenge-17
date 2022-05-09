@@ -50,7 +50,7 @@ header>button {
 }
 .header-container {
     display: flex;
-    position: absolute;
+    position: fixed;
     background-color: var(--white);
     flex-direction: column;
     width: 60%;
