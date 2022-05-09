@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/svg"
+      sizes="32x32"
+      href="images/icon-star.svg"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.svg" alt="" />
+      <div class="header-container">
+        <ul>
+          <li class="dropdown">
+            <button>Features
+              <img src="images/icon-arrow-down.svg" alt="">
+            </button>
+            <ul>
+              <li><img src="images/icon-todo.svg" alt=""> <a href="#">Todo list</a></li>
+              <li><img src="images/icon-calendar.svg" alt=""> <a href="#">Calendar</a></li>
+              <li><img src="images/icon-reminders.svg" alt=""> <a href="#">Reminders</a></li>
+              <li><img src="images/icon-planning.svg" alt=""> <a href="#">Planning</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <button>Company
+              <img src="images/icon-arrow-down.svg" alt="">
+            </button>
+            <ul>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <div class="access-buttons">
+          <button>Login</button>
+          <button>Register</button>
+        </div>
+      </div>
+      <button class="menu-toggle"><img src="images/icon-menu.svg" alt=""></button>
+    </header>
+    <main class="wrapper">
+      <div class="container">
+        <div class="blur-img">
+          <img src="images/image-hero-mobile.png" alt="" class="mobile">
+        </div>
+        <h1>Make remote work</h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button>Learn more</button>
+        <div class="our-client">
+          <img src="images/client-databiz.svg" alt="" />
+          <img src="images/client-audiophile.svg" alt="" />
+          <img src="images/client-meet.svg" alt="" />
+          <img src="images/client-maker.svg" alt="" />
+        </div>
+      </div>
+      <div class="blur-img">
+        <img src="images/image-hero-desktop.png" alt="" class="desktop">
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
